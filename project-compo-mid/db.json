@@ -1,0 +1,60 @@
+{
+    "students": [
+      {
+        "name": "John",
+        "surname": "Doe",
+        "studentID": 10001,
+        "profileImage": "https://shorturl.asia/eIy3a",
+        "courses": ["Mathematics", "Physics", "Chemistry"]
+      },
+      {
+        "name": "Jane",
+        "surname": "Smith",
+        "studentID": 10002,
+        "profileImage": "https://shorturl.asia/eIy3a",
+        "courses": ["Biology", "Chemistry", "Literature"]
+      },
+      {
+        "name": "Alice",
+        "surname": "Johnson",
+        "studentID": 10003,
+        "profileImage": "https://shorturl.asia/eIy3a",
+        "courses": ["History", "Economics", "Physics"]
+      },
+      {
+        "name": "Bob",
+        "surname": "Brown",
+        "studentID": 10004,
+        "profileImage": "https://shorturl.asia/eIy3a",
+        "courses": ["Mathematics", "Biology", "Computer Science"]
+      },
+      {
+        "name": "Charlie",
+        "surname": "Davis",
+        "studentID": 10005,
+        "profileImage": "https://shorturl.asia/eIy3a",
+        "courses": ["Geography", "History", "Biology"]
+      },
+      {
+        "name": "Diana",
+        "surname": "Evans",
+        "studentID": 10006,
+        "profileImage": "https://shorturl.asia/eIy3a",
+        "courses": ["Physics", "Chemistry", "Literature"]
+      },  
+      {
+        "name": "Victor",
+        "surname": "Young",
+        "studentID": 10029,
+        "profileImage": "https://shorturl.asia/eIy3a",
+        "courses": ["History", "Physics", "Economics"]
+      },
+      {
+        "name": "Zara",
+        "surname": "Zimmerman",
+        "studentID": 10030,
+        "profileImage": "https://shorturl.asia/eIy3a",
+        "courses": ["Mathematics", "Biology", "Literature"]
+      }
+    ]
+  }

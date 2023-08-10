@@ -2,6 +2,6 @@
 
 # Team Member
 
-- Pitchaya Akkawong 642115028
+- Pitchaya Akkawong 642115029
 - Nureman Sateemae 642115025
 - Puttipong Sailen 642115033
