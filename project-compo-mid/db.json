@@ -4,56 +4,56 @@
       "name": "John",
       "surname": "Doe",
       "studentID": 1,
-      "profileImage": "https://shorturl.asia/eIy3a",
+      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Mathematics", "Physics", "Chemistry"]
     },
     {
       "name": "Jane",
       "surname": "Smith",
       "studentID": 2,
-      "profileImage": "https://shorturl.asia/eIy3a",
+      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Biology", "Chemistry", "Literature"]
     },
     {
       "name": "Alice",
       "surname": "Johnson",
       "studentID": 3,
-      "profileImage": "https://shorturl.asia/eIy3a",
+      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["History", "Economics", "Physics"]
     },
     {
       "name": "Bob",
       "surname": "Brown",
       "studentID": 4,
-      "profileImage": "https://shorturl.asia/eIy3a",
+      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Mathematics", "Biology", "Computer Science"]
     },
     {
       "name": "Charlie",
       "surname": "Davis",
       "studentID": 5,
-      "profileImage": "https://shorturl.asia/eIy3a",
+      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Geography", "History", "Biology"]
     },
     {
       "name": "Diana",
       "surname": "Evans",
       "studentID": 6,
-      "profileImage": "https://shorturl.asia/eIy3a",
+      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Physics", "Chemistry", "Literature"]
     },
     {
       "name": "Victor",
       "surname": "Young",
       "studentID": 7,
-      "profileImage": "https://shorturl.asia/eIy3a",
+      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["History", "Physics", "Economics"]
     },
     {
       "name": "Zara",
       "surname": "Zimmerman",
       "studentID": 8,
-      "profileImage": "https://shorturl.asia/eIy3a",
+      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Mathematics", "Biology", "Literature"]
     }
   ]
