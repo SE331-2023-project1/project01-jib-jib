@@ -3,13 +3,13 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+  <div>
+    <img alt="Vue logo" src="@/assets/logo.svg" class="mt-5 m-auto mb-10 object-center h-20 w-28" />
+  </div>
+  <header class="max-h-screen leading-normal">
+    <div class="text-center font-bold font-mono">
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
+      <nav class="space-x-2">
         <RouterLink to="/">Student</RouterLink>
         <RouterLink to="/about">Advisor</RouterLink>
       </nav>
@@ -19,7 +19,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <RouterView />
 </template>
 
-<style scoped>
+<!-- <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -81,4 +81,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-</style>
+</style> -->
