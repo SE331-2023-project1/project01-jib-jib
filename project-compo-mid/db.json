@@ -76,7 +76,7 @@
       "name": "Emily",
       "surname": "Walker",
       "studentID": 100010,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpga",
+      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Chemistry", "Physics", "Biology"],
       "Advisor_id":20002
     },
