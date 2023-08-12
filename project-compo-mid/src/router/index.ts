@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import StudentView from '@/views/StudentView.vue'
 
+import NProgress from 'nprogress'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -19,5 +21,13 @@ const router = createRouter({
     }
   ]
 })
+
+router.beforeEach(() =>{
+  NProgress.start()
+})
+router.afterEach(() =>{
+  NProgress.done()
+})
+
 
 export default router
