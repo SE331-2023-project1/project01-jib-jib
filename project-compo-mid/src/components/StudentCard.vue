@@ -22,8 +22,6 @@ const props = defineProps({
           <p>Course: {{ student.courses.toString() }}</p>
         </div>
       </div>
-
     </div>
   </div>
 </template>
-
