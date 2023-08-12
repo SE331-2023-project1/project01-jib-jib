@@ -30,27 +30,28 @@ const hasNextPages = computed(() => {
 </script>
 
 <template>
-  <div class="student">
-    <StudentCard
-      v-for="student in students"
-      :key="student.studentID"
-      :student="student"
-    ></StudentCard>
-    <RouterLink
-      :to="{ name: 'students', query: { page: page - 1 } }"
-      rel="prev"
-      v-if="page != 1"
-      id="page-prev"
-    >
-      Prev page
-    </RouterLink>
-    <RouterLink
-      :to="{ name: 'students', query: { page: page + 1 } }"
-      rel="next"
-      v-if="hasNextPages"
-      id="page-next"
-    >
-      Next page
-    </RouterLink>
+  <div>
+    <div class="grid grid-cols-2 gap-2 mb-4">
+      <StudentCard v-for="student in students" :key="student.studentID" :student="student">
+      </StudentCard>
+    </div>
+    <div class="flex justify-center space-x-28">
+      <RouterLink
+        :to="{ name: 'students', query: { page: page - 1 } }"
+        rel="prev"
+        v-if="page != 1"
+        id="page-prev"
+      >
+        Prev page
+      </RouterLink>
+      <RouterLink
+        :to="{ name: 'students', query: { page: page + 1 } }"
+        rel="next"
+        v-if="hasNextPages"
+        id="page-next"
+      >
+        Next page
+      </RouterLink>
+    </div>
   </div>
 </template>

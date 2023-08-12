@@ -1,23 +1,22 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-
 </script>
 
 <template>
-  <div>
-    <img alt="Hogwarts logo" src="https://logolook.net/wp-content/uploads/2021/11/Hogwarts-Logo.png" class="mt-8 mx-auto mb-12 object-center h-44 w-42"
-
- />
-  </div>
-  <header class="max-h-screen leading-normal">
-    <div class="text-center font-bold font-mono">
-      <nav class="space-x-2">
-        <RouterLink to="/">Student</RouterLink>
-        <RouterLink to="/about">Advisor</RouterLink>
-      </nav>
+  <header class="max-h-screen leading-normal justify-center">
+    <div>
+      <img
+        alt="Vue logo"
+        src="https://logolook.net/wp-content/uploads/2021/11/Hogwarts-Logo.png"
+        class="mt-5 m-auto mb-5 object-center h-20 w-28"
+      />
     </div>
+    <nav class="space-x-4 text-center font-bold font-mono mb-2">
+      <RouterLink to="/">Student</RouterLink>
+      <RouterLink to="/about">Advisor</RouterLink>
+    </nav>
+    <RouterView />
   </header>
-  <RouterView />
 </template>
 
 <!-- <style scoped>
