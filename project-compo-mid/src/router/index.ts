@@ -9,7 +9,8 @@ const router = createRouter({
     {
       path: '/',
       name: 'students',
-      component: StudentView
+      component: StudentView,
+      props: (route) => ({ page: parseInt((route.query?.page as string) || '1') })
     },
     {
       path: '/about',
@@ -22,12 +23,11 @@ const router = createRouter({
   ]
 })
 
-router.beforeEach(() =>{
+router.beforeEach(() => {
   NProgress.start()
 })
-router.afterEach(() =>{
+router.afterEach(() => {
   NProgress.done()
 })
-
 
 export default router
