@@ -55,6 +55,203 @@
       "studentID": 8,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Mathematics", "Biology", "Literature"]
+    },
+    {
+      "name": "Emily",
+      "surname": "Walker",
+      "studentID": 10009,
+      "profileImage": "https://shorturl.asia/eIy3a",
+      "courses": ["Chemistry", "Physics", "Biology"]
+    },
+    {
+      "name": "Sarah",
+      "surname": "Johnson",
+      "studentID": 10011,
+      "profileImage": "https://shorturl.asia/zX69C",
+      "courses": ["History", "Political Science", "Sociology"]
+    },
+      
+    {
+      "name": "Michael",
+      "surname": "Williams",
+      "studentID": 10012,
+      "profileImage": "https://shorturl.asia/wEjt4",
+      "courses": ["Literature", "Creative Writing", "Theater Arts"]
+    },
+      
+    {
+      "name": "Jennifer",
+      "surname": "Brown",
+      "studentID": 10013,
+      "profileImage": "https://shorturl.asia/dWtk6",
+      "courses": ["Psychology", "Counseling", "Human Development"]
+    },
+      
+    {
+      "name": "David",
+      "surname": "Miller",
+      "studentID": 10014,
+      "profileImage": "https://shorturl.asia/yRgu8",
+      "courses": ["Economics", "Finance", "Business Administration"]
+    },
+      
+    {
+      "name": "Jessica",
+      "surname": "Anderson",
+      "studentID": 10015,
+      "profileImage": "https://shorturl.asia/sNvy0",
+      "courses": ["Environmental Science", "Geology", "Ecology"]
+    },
+      
+    {
+      "name": "Christopher",
+      "surname": "Martinez",
+      "studentID": 10016,
+      "profileImage": "https://shorturl.asia/qBgP2",
+      "courses": ["Engineering", "Physics", "Mathematics"]
+    },
+      
+    {
+      "name": "Amanda",
+      "surname": "Garcia",
+      "studentID": 10017,
+      "profileImage": "https://shorturl.asia/iNzf4",
+      "courses": ["Computer Science", "Information Technology", "Software Engineering"]
+    },
+      
+    {
+      "name": "Matthew",
+      "surname": "Lee",
+      "studentID": 10018,
+      "profileImage": "https://shorturl.asia/pRwx6",
+      "courses": ["Biology", "Chemistry", "Genetics"]
+    },
+      
+    {
+      "name": "Elizabeth",
+      "surname": "Taylor",
+      "studentID": 10019,
+      "profileImage": "https://shorturl.asia/jKcz8",
+      "courses": ["Art History", "Fine Arts", "Sculpture"]
+    },
+      
+    {
+      "name": "William",
+      "surname": "Clark",
+      "studentID": 10020,
+      "profileImage": "https://shorturl.asia/zLqv0",
+      "courses": ["Music", "Composition", "Music Theory"]
+    },
+      
+    {
+      "name": "Olivia",
+      "surname": "Moore",
+      "studentID": 10021,
+      "profileImage": "https://shorturl.asia/bNmw2",
+      "courses": ["Anthropology", "Archaeology", "Cultural Studies"]
+    },
+      
+    {
+      "name": "Daniel",
+      "surname": "Lopez",
+      "studentID": 10022,
+      "profileImage": "https://shorturl.asia/gRtz4",
+      "courses": ["Foreign Languages", "Linguistics", "Translation"]
+    },
+      
+    {
+      "name": "Sophia",
+      "surname": "Rivera",
+      "studentID": 10023,
+      "profileImage": "https://shorturl.asia/tYuw6",
+      "courses": ["Medicine", "Anatomy", "Medical Research"]
+    },
+      
+    {
+      "name": "James",
+      "surname": "Harris",
+      "studentID": 10024,
+      "profileImage": "https://shorturl.asia/mIpx8",
+      "courses": ["Astronomy", "Astrophysics", "Space Exploration"]
+    },
+    {
+      "name": "Emma",
+      "surname": "King",
+      "studentID": 10025,
+      "profileImage": "https://shorturl.asia/fGuv2",
+      "courses": ["Journalism", "Media Studies", "Communication"]
+    },
+      
+    {
+      "name": "Alexander",
+      "surname": "Perez",
+      "studentID": 10026,
+      "profileImage": "https://shorturl.asia/jRtz4",
+      "courses": ["Political Science", "International Relations", "Diplomacy"]
+    },
+      
+    {
+      "name": "Grace",
+      "surname": "Adams",
+      "studentID": 10027,
+      "profileImage": "https://shorturl.asia/qFtz6",
+      "courses": ["Philosophy", "Ethics", "Logic"]
+    },
+      
+    {
+      "name": "Ethan",
+      "surname": "Carter",
+      "studentID": 10028,
+      "profileImage": "https://shorturl.asia/dVtz8",
+      "courses": ["Physical Education", "Sports Science", "Coaching"]
+    },
+      
+    {
+      "name": "Lily",
+      "surname": "Morales",
+      "studentID": 10029,
+      "profileImage": "https://shorturl.asia/yFtz0",
+      "courses": ["Drama", "Theater Production", "Acting"]
+    },
+      
+    {
+      "name": "Benjamin",
+      "surname": "Wright",
+      "studentID": 10030,
+      "profileImage": "https://shorturl.asia/mGtz2",
+      "courses": ["Geography", "Cartography", "GIS"]
+    },
+      
+    {
+      "name": "Chloe",
+      "surname": "Hughes",
+      "studentID": 10031,
+      "profileImage": "https://shorturl.asia/aVtz4",
+      "courses": ["Culinary Arts", "Hospitality Management", "Gastronomy"]
+    },
+      
+    {
+      "name": "Jackson",
+      "surname": "Baker",
+      "studentID": 10032,
+      "profileImage": "https://shorturl.asia/eVtz6",
+      "courses": ["Architecture", "Urban Planning", "Design"]
+    },
+      
+    {
+      "name": "Aria",
+      "surname": "Stewart",
+      "studentID": 10033,
+      "profileImage": "https://shorturl.asia/rVtz8",
+      "courses": ["Fashion Design", "Textile Arts", "Fashion Merchandising"]
+    },
+      
+    {
+      "name": "Samuel",
+      "surname": "Cooper",
+      "studentID": 10034,
+      "profileImage": "https://shorturl.asia/hWtz0",
+      "courses": ["Engineering", "Robotics", "Mechatronics"]
     }
   ]
 }
