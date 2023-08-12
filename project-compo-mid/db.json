@@ -4,7 +4,7 @@
       "name": "Liam",
       "surname": "Parker",
       "studentID": 10001,
-      "profileImage": "https://example.com/student4.jpg",
+      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Physics", "Quantum Mechanics", "Astrophysics"],
       "Advisor_id": 20005
     },
