@@ -9,17 +9,18 @@ const props = defineProps({
 })
 </script>
 <template>
-  <div class="container mx-auto flex justify-center items-center">
-    <div v-if="student" class="border-2 p-2 m-2 w-96">
-      <div class="flex">
-        <div>
-          <img :src="student.profileImage" alt="Student Image" class="h-24 w-20" />
+  <div class="flex justify-center items-center mb-2">
+    <div v-if="student" class="border-2 w-3/4 h-38 p-2">
+      <div class="flex row-auto">
+        <div class="mr-2">
+          <img :src="student.profileImage" alt="Student Image" class="h-36 w-30" />
         </div>
-        <div class="ml-2">
-          <p>Student ID: {{ student.studentID }}</p>
+        <div class="ml-2 text-left">
+          <p class="text-lg font-mono font-bold">Student ID: {{ student.studentID }}</p>
           <p>Name: {{ student.name }}</p>
           <p>Surname: {{ student.surname }}</p>
-          <p>Course: {{ student.courses.toString() }}</p>
+          <p>Course:</p>
+          <p class="text-xs">{{ student.courses.toString() }}</p>
         </div>
       </div>
     </div>
