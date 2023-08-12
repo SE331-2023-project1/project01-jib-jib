@@ -1,9 +1,17 @@
 {
   "students": [
     {
+      "name": "Liam",
+      "surname": "Parker",
+      "studentID": 10001,
+      "profileImage": "https://example.com/student4.jpg",
+      "courses": ["Physics", "Quantum Mechanics", "Astrophysics"],
+      "Advisor_id": 20005
+    },
+    {
       "name": "John",
       "surname": "Doe",
-      "studentID": 10001,
+      "studentID": 10002,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Mathematics", "Physics", "Chemistry"],
       "Advisor_id":20007
@@ -11,7 +19,7 @@
     {
       "name": "Jane",
       "surname": "Smith",
-      "studentID": 10002,
+      "studentID": 10003,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Biology", "Chemistry", "Literature"],
       "Advisor_id":20011
@@ -19,7 +27,7 @@
     {
       "name": "Alice",
       "surname": "Johnson",
-      "studentID": 10003,
+      "studentID": 10004,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["History", "Economics", "Physics"],
       "Advisor_id":20002
@@ -27,7 +35,7 @@
     {
       "name": "Bob",
       "surname": "Brown",
-      "studentID": 10004,
+      "studentID": 10005,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Mathematics", "Biology", "Computer Science"],
       "Advisor_id":20004
@@ -35,7 +43,7 @@
     {
       "name": "Charlie",
       "surname": "Davis",
-      "studentID": 10005,
+      "studentID": 10006,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Geography", "History", "Biology"],
       "Advisor_id":20010
@@ -43,7 +51,7 @@
     {
       "name": "Diana",
       "surname": "Evans",
-      "studentID": 10006,
+      "studentID": 10007,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Physics", "Chemistry", "Literature"],
       "Advisor_id":20009
@@ -51,7 +59,7 @@
     {
       "name": "Victor",
       "surname": "Young",
-      "studentID": 10007,
+      "studentID": 10008,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["History", "Physics", "Economics"],
       "Advisor_id":20008
@@ -59,7 +67,7 @@
     {
       "name": "Zara",
       "surname": "Zimmerman",
-      "studentID": 10008,
+      "studentID": 10009,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Mathematics", "Biology", "Literature"],
       "Advisor_id":20006
@@ -67,7 +75,7 @@
     {
       "name": "Emily",
       "surname": "Walker",
-      "studentID": 10009,
+      "studentID": 100010,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpga",
       "courses": ["Chemistry", "Physics", "Biology"],
       "Advisor_id":20002
@@ -285,6 +293,23 @@
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Engineering", "Robotics", "Mechatronics"],
       "Advisor_id":20002
+    },
+    {
+      "name": "Isabella",
+      "surname": "Garcia",
+      "studentID": 10035,
+      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "courses": ["Biology", "Genetics", "Biochemistry"],
+      "Advisor_id": 20003
+    },
+      
+    {
+      "name": "Olivia",
+      "surname": "Anderson",
+      "studentID": 10036,
+      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "courses": ["History", "Ancient Civilizations", "Archaeology"],
+      "Advisor_id": 20004
     }
     
   ],
