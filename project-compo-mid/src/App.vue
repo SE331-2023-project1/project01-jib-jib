@@ -8,7 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <img
         alt="Vue logo"
         src="https://logolook.net/wp-content/uploads/2021/11/Hogwarts-Logo.png"
-        class="mt-5 m-auto mb-5 object-center h-20 w-28"
+        class="mt-5 m-auto mb-5 object-center h-24 w-40"
       />
     </div>
     <nav class="space-x-4 text-center font-bold font-mono mb-2">
