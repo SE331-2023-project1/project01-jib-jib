@@ -1,10 +1,14 @@
 <script setup lang="ts">
-import { type StudentItem } from '@/type';
+import { type StudentItem, AdviserItem } from '@/type';
 import type { PropType } from 'vue';
 
 defineProps({
     student: {
         type: Object as PropType<StudentItem>,
+            require: true
+    },
+    adviser: {
+        type: Object as PropType<AdviserItem>,
             require: true
     }
 })
