@@ -18,7 +18,7 @@ import { RouterLink, RouterView } from 'vue-router'
           >Student</RouterLink
         >
         <RouterLink
-          to="/about "
+          to="/professer"
           class="font-black transition-colors duration-300 hover:text-yellow-500"
           >Advisor</RouterLink
         >

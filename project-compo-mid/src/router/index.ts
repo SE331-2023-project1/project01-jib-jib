@@ -4,6 +4,7 @@ import StudentDetail from '@/views/event/StudentDetail.vue'
 import AdviserDetail from '@/views/event/AdviserDetail.vue'
 import LayoutView from '@/views/event/LayoutView.vue'
 import NProgress from 'nprogress'
+import AdviserView from '@/views/AdviserView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,12 +16,10 @@ const router = createRouter({
       props: (route) => ({ page: parseInt((route.query?.page as string) || '1') })
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
+      path: '/professer',
+      name: 'professer',
+      component: AdviserView,
+      props: (route) => ({ page: parseInt((route.query?.page as string) || '1') })
     },
     {
       path: '/student/:id',
