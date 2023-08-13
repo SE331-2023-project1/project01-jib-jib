@@ -1,19 +1,11 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import { type StudentItem } from '@/type';
-import StudentService from '@/services/StudentService';
+import { useStudentStore } from '@/stores/student'
+import { storeToRefs } from 'pinia';
+import  { ref } from 'vue'
 
-const student = ref<StudentItem | null>(null)
-const props = defineProps({
-    id: String
-})
-
-StudentService.getStudentById(Number(props.id))
-.then((response) => {
-    student.value = response.data
-}).catch((error) => {
-    console.log(error)
-})
+const store = useStudentStore()
+const student = storeToRefs(store).student
+const id = ref(student?.value?.id)
 </script>
 
 <template>

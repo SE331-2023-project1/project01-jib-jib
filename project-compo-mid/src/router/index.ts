@@ -3,6 +3,11 @@ import StudentView from '@/views/StudentView.vue'
 import StudentDetail from '@/views/event/StudentDetail.vue'
 import AdviserDetail from '@/views/event/AdviserDetail.vue'
 import LayoutView from '@/views/event/LayoutView.vue'
+import NotFoundView from '@/views/NotFoundView.vue'
+import  NetworkErrorView from '@/views/NetworkErrorView.vue'
+import StudentService from '@/services/StudentService'
+import { useStudentStore } from '@/stores/student'
+
 import NProgress from 'nprogress'
 
 const router = createRouter({
@@ -27,6 +32,24 @@ const router = createRouter({
       name: 'event-layout',
       component: LayoutView,
       props: true,
+      beforeEnter: (to) => {
+        const id: number = parseInt(to.params.id as string)
+        const studentStore = useStudentStore()
+          return StudentService.getStudentById(id)
+          .then((response) => {
+            // need to set up the data
+            studentStore.setStudent(response.data)
+          }).catch((error) => {
+            if(error.response && error.response.status === 404 ){
+              return {
+                name: '404-resource',
+                params: { resource: 'student'}
+              }
+            }else{
+              return { name: 'network-error'}
+            }
+          })
+      },
       children: [
         {
           path: '/students/:id',
@@ -41,7 +64,24 @@ const router = createRouter({
           props: true
         }
       ]
+    },
+    {
+      path: '/:catchAll(.*)',
+      name: 'not-found',
+      component: NotFoundView,
+    },
+    {
+      path: '/404/:resource',
+      name: '404-resource',
+      component: NotFoundView,
+      props: true
+    },
+    {
+      path: '/network-error',
+      name: 'network-error',
+      component: NetworkErrorView
     }
+    
   ]
 })
 
