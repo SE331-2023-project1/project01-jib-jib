@@ -17,12 +17,13 @@ StudentService.getStudentById(Number(props.id))
 </script>
 
 <template>
-     <div v-if="student">
-        <h1>{{ student.studentID }}</h1>
+     <div v-if="student" class="flex flex-col items-center gap-4 mt-4">
+        <img :src="student?.profileImage" alt="Student Image" class="h-48 w-36" />
+        <h1 class="font-mono font-bold text-2xl"> StudentID: {{ student.studentID }}</h1>
         <div>
-            <RouterLink :to="{ name: 'student-detail', params: { id } }"> Details </RouterLink>
+            <RouterLink :to="{ name: 'student-detail', params: { id } }" class="font-mono font-semibold"> Details </RouterLink>
             |
-            <RouterLink :to="{ name: 'adviser-detail', params: { id } }"> Adviser </RouterLink>
+            <RouterLink :to="{ name: 'adviser-detail', params: { id } }" class="font-mono font-semibold"> Adviser </RouterLink>
         </div>
 
         <RouterView :student="student"></RouterView>
