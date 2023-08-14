@@ -31,7 +31,7 @@ const hasNextPages = computed(() => {
 
 <template>
   <div>
-    <div >
+    <div class="grid grid-cols-2 gap-2 mb-4 mt-10">
       <AdviserList
         v-for="professers in professer"
         :key="professers.professorID"
@@ -39,7 +39,7 @@ const hasNextPages = computed(() => {
       >
       </AdviserList>
     </div>
-    <div>
+    <div class="flex justify-around space-x-28">
       <RouterLink
         :to="{ name: 'professer', query: { page: page - 1 } }"
         rel="prev"
