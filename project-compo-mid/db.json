@@ -7,7 +7,7 @@
       "surname": "Parker",
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Physics", "Quantum Mechanics", "Astrophysics"],
-      "Advisor_id": 20005
+      "professorId": 4
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "studentID": 10002,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Mathematics", "Physics", "Chemistry"],
-      "Advisor_id": 20007
+      "professorId": 6
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "studentID": 10003,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Biology", "Chemistry", "Literature"],
-      "Advisor_id": 20011
+      "professorId": 10
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "studentID": 10004,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["History", "Economics", "Physics"],
-      "Advisor_id": 20002
+      "professorId": 1
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "studentID": 10005,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Mathematics", "Biology", "Computer Science"],
-      "Advisor_id": 20004
+      "professorId": 3
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "studentID": 10006,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Geography", "History", "Biology"],
-      "Advisor_id": 20010
+      "professorId": 9
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "studentID": 10007,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Physics", "Chemistry", "Literature"],
-      "Advisor_id": 20009
+      "professorId": 8
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "studentID": 10008,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["History", "Physics", "Economics"],
-      "Advisor_id": 20008
+      "professorId": 7
     },
     {
       "id": 9,
@@ -79,7 +79,7 @@
       "studentID": 10009,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Mathematics", "Biology", "Literature"],
-      "Advisor_id": 20006
+      "professorId": 5
     },
     {
       "id": 10,
@@ -88,7 +88,7 @@
       "studentID": 100010,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Chemistry", "Physics", "Biology"],
-      "Advisor_id": 20002
+      "professorId": 1
     },
     {
       "id": 10,
@@ -97,7 +97,7 @@
       "studentID": 10011,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["History", "Political Science", "Sociology"],
-      "Advisor_id": 20003
+      "professorId": 2
     },
 
     {
@@ -107,7 +107,7 @@
       "studentID": 10012,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Literature", "Creative Writing", "Theater Arts"],
-      "Advisor_id": 20006
+      "professorId": 5
     },
 
     {
@@ -117,7 +117,7 @@
       "studentID": 10013,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Psychology", "Counseling", "Human Development"],
-      "Advisor_id": 20004
+      "professorId": 3
     },
 
     {
@@ -127,7 +127,7 @@
       "studentID": 10014,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Economics", "Finance", "Business Administration"],
-      "Advisor_id": 20005
+      "professorId": 4
     },
 
     {
@@ -137,7 +137,7 @@
       "studentID": 10015,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Environmental Science", "Geology", "Ecology"],
-      "Advisor_id": 20010
+      "professorId": 9
     },
 
     {
@@ -147,7 +147,7 @@
       "studentID": 10016,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Engineering", "Physics", "Mathematics"],
-      "Advisor_id": 20009
+      "professorId": 8
     },
 
     {
@@ -157,7 +157,7 @@
       "studentID": 10017,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Computer Science", "Information Technology", "Software Engineering"],
-      "Advisor_id": 20011
+      "professorId": 10
     },
 
     {
@@ -167,7 +167,7 @@
       "studentID": 10018,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Biology", "Chemistry", "Genetics"],
-      "Advisor_id": 20008
+      "professorId": 7
     },
 
     {
@@ -177,7 +177,7 @@
       "studentID": 10019,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Art History", "Fine Arts", "Sculpture"],
-      "Advisor_id": 20006
+      "professorId": 5
     },
 
     {
@@ -187,7 +187,7 @@
       "studentID": 10020,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Music", "Composition", "Music Theory"],
-      "Advisor_id": 20002
+      "professorId": 1
     },
 
     {
@@ -197,7 +197,7 @@
       "studentID": 10021,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Anthropology", "Archaeology", "Cultural Studies"],
-      "Advisor_id": 20003
+      "professorId": 4
     },
 
     {
@@ -207,7 +207,7 @@
       "studentID": 10022,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Foreign Languages", "Linguistics", "Translation"],
-      "Advisor_id": 20004
+      "professorId": 3
     },
 
     {
@@ -217,7 +217,7 @@
       "studentID": 10023,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Medicine", "Anatomy", "Medical Research"],
-      "Advisor_id": 20009
+      "professorId": 8
     },
 
     {
@@ -227,7 +227,7 @@
       "studentID": 10024,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Astronomy", "Astrophysics", "Space Exploration"],
-      "Advisor_id": 20006
+      "professorId": 5
     },
     {
       "id": 24,
@@ -236,7 +236,7 @@
       "studentID": 10025,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Journalism", "Media Studies", "Communication"],
-      "Advisor_id": 20005
+      "professorId": 4
     },
 
     {
@@ -246,7 +246,7 @@
       "studentID": 10026,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Political Science", "International Relations", "Diplomacy"],
-      "Advisor_id": 2009
+      "professorId": 8
     },
 
     {
@@ -256,7 +256,7 @@
       "studentID": 10027,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Philosophy", "Ethics", "Logic"],
-      "Advisor_id": 20011
+      "professorId": 10
     },
 
     {
@@ -266,7 +266,7 @@
       "studentID": 10028,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Physical Education", "Sports Science", "Coaching"],
-      "Advisor_id": 20008
+      "professorId": 7
     },
 
     {
@@ -276,7 +276,7 @@
       "studentID": 10029,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Drama", "Theater Production", "Acting"],
-      "Advisor_id": 20010
+      "professorId": 9
     },
 
     {
@@ -286,7 +286,7 @@
       "studentID": 10030,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Geography", "Cartography", "GIS"],
-      "Advisor_id": 20003
+      "professorId": 2
     },
 
     {
@@ -296,7 +296,7 @@
       "studentID": 10031,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Culinary Arts", "Hospitality Management", "Gastronomy"],
-      "Advisor_id": 20007
+      "professorId": 8
     },
 
     {
@@ -306,7 +306,7 @@
       "studentID": 10032,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Architecture", "Urban Planning", "Design"],
-      "Advisor_id": 20011
+      "professorId": 10
     },
 
     {
@@ -316,7 +316,7 @@
       "studentID": 10033,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Fashion Design", "Textile Arts", "Fashion Merchandising"],
-      "Advisor_id": 20007
+      "professorId": 6
     },
 
     {
@@ -326,7 +326,7 @@
       "studentID": 10034,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Engineering", "Robotics", "Mechatronics"],
-      "Advisor_id": 20002
+      "professorId": 1
     },
     {
       "id": 34,
@@ -335,7 +335,7 @@
       "studentID": 10035,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["Biology", "Genetics", "Biochemistry"],
-      "Advisor_id": 20003
+      "professorId": 2
     },
 
     {
@@ -345,7 +345,7 @@
       "studentID": 10036,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
       "courses": ["History", "Ancient Civilizations", "Archaeology"],
-      "Advisor_id": 20004
+      "professorId": 3
     }
   ],
   "professer": [

@@ -1,7 +1,7 @@
 import axios from 'axios'
 import type { AxiosInstance, AxiosResponse } from 'axios'
-import type { StudentItem } from '@/type'
-import type { AdviserItem } from '@/type'
+import type { StudentItem, AdviserItem } from '@/type'
+
 
 const apiClient: AxiosInstance = axios.create({
   baseURL: 'http://localhost:3006',
@@ -20,5 +20,8 @@ export default {
   },
   getAdviser(perPage: number, page: number): Promise<AxiosResponse<AdviserItem[]>> {
     return apiClient.get<Array<AdviserItem>>('/professer?_limit=' + perPage + '&_page=' + page)
+  },
+  getAdviserById(id: number): Promise<AxiosResponse<AdviserItem>> {
+    return apiClient.get<AdviserItem>('/professer/' + id.toString())
   }
 }

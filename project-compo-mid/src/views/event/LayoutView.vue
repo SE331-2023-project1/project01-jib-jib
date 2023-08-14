@@ -4,7 +4,7 @@ import { storeToRefs } from 'pinia';
 import  { ref } from 'vue'
 
 const store = useStudentStore()
-const student = storeToRefs(store).student
+const { student, professer} = storeToRefs(store)
 const id = ref(student?.value?.id)
 </script>
 
@@ -18,6 +18,6 @@ const id = ref(student?.value?.id)
             <RouterLink :to="{ name: 'adviser-detail', params: { id } }" class="font-mono font-semibold"> Adviser </RouterLink>
         </div>
 
-        <RouterView :student="student"></RouterView>
+        <RouterView :student="student" :professer="professer"></RouterView>
     </div>
 </template>

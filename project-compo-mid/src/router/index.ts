@@ -38,6 +38,10 @@ const router = createRouter({
           .then((response) => {
             // need to set up the data
             studentStore.setStudent(response.data)
+            StudentService.getAdviserById(Number(response.data.professorId))
+            .then((response2) => {
+              studentStore.setAdviser(response2.data)
+            })
           }).catch((error) => {
             if(error.response && error.response.status === 404 ){
               return {

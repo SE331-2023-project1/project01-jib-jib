@@ -5,6 +5,7 @@ export interface StudentItem {
   studentID: number
   profileImage: string
   courses: string[]
+  professorId: number
 }
 
 export interface AdviserItem {
