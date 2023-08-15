@@ -6,6 +6,8 @@ import LayoutView from '@/views/event/LayoutView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
 import  NetworkErrorView from '@/views/NetworkErrorView.vue'
 import StudentService from '@/services/StudentService'
+import AdviserProfile from '@/views/AdviserProfile.vue'
+
 import { useStudentStore } from '@/stores/student'
 
 import NProgress from 'nprogress'
@@ -83,6 +85,11 @@ const router = createRouter({
       path: '/network-error',
       name: 'network-error',
       component: NetworkErrorView
+    },{
+      path: '/professer/profile/:id',
+      name:'professer-profile',
+      component: AdviserProfile,
+      props: true
     }
     
   ]
