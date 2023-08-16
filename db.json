@@ -156,7 +156,11 @@
       "surname": "Garcia",
       "studentID": 10017,
       "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
-      "courses": ["Computer Science", "Information Technology", "Software Engineering"],
+      "courses": [
+        "Computer Science",
+        "Information Technology",
+        "Software Engineering"
+      ],
       "professorId": 10
     },
 
@@ -354,8 +358,7 @@
       "name": "Ella",
       "surname": "Parker",
       "professorID": 20002,
-      "profileImage": "https://lovelace-media.imgix.net/uploads/6/89198b10-19a7-0132-085c-0eae5eefacd9.jpg",
-      "courses": ["Fine Arts", "Painting", "Sculpture"]
+      "profileImage": "https://lovelace-media.imgix.net/uploads/6/89198b10-19a7-0132-085c-0eae5eefacd9.jpg"
     },
 
     {
@@ -363,8 +366,7 @@
       "name": "Henry",
       "surname": "Nelson",
       "professorID": 20003,
-      "profileImage": "https://i.insider.com/6000b204b805070018995348?width=1000&format=jpeg&auto=webp",
-      "courses": ["Music", "Composition", "Music Theory"]
+      "profileImage": "https://i.insider.com/6000b204b805070018995348?width=1000&format=jpeg&auto=webp"
     },
 
     {
@@ -372,8 +374,7 @@
       "name": "Mia",
       "surname": "Collins",
       "professorID": 20004,
-      "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLNDX2MgfkQ0_DRKR8mLkMwdPYH_O0FJp8BQ&usqp=CAU",
-      "courses": ["Architecture", "Urban Planning", "Design"]
+      "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLNDX2MgfkQ0_DRKR8mLkMwdPYH_O0FJp8BQ&usqp=CAU"
     },
 
     {
@@ -381,8 +382,7 @@
       "name": "James",
       "surname": "Stewart",
       "professorID": 20005,
-      "profileImage": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/26/14/asset/buzzfeed-prod-fastlane-02/sub-buzz-29309-1519674257-21.png",
-      "courses": ["Law", "Constitutional Law", "Legal Studies"]
+      "profileImage": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/26/14/asset/buzzfeed-prod-fastlane-02/sub-buzz-29309-1519674257-21.png"
     },
 
     {
@@ -390,8 +390,7 @@
       "name": "Avery",
       "surname": "Mitchell",
       "professorID": 20006,
-      "profileImage": "https://pbs.twimg.com/media/BWyxwDgCYAA5PVL.jpg:large",
-      "courses": ["Linguistics", "Language Acquisition", "Sociolinguistics"]
+      "profileImage": "https://pbs.twimg.com/media/BWyxwDgCYAA5PVL.jpg:large"
     },
 
     {
@@ -399,8 +398,7 @@
       "name": "Luna",
       "surname": "Rossi",
       "professorID": 20007,
-      "profileImage": "https://thumb.spokesman.com/MYHRTMlMh-WQmU4W8JSGer2doIM=/1200x0/media.spokesman.com/photos/2021/07/12/60eca8983a93d.image.jpg",
-      "courses": ["Astronomy", "Astrophysics", "Cosmology"]
+      "profileImage": "https://thumb.spokesman.com/MYHRTMlMh-WQmU4W8JSGer2doIM=/1200x0/media.spokesman.com/photos/2021/07/12/60eca8983a93d.image.jpg"
     },
 
     {
@@ -408,8 +406,7 @@
       "name": "Carter",
       "surname": "Ward",
       "professorID": 20008,
-      "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDPNfs8SdhzNi-0D5z54TmAFPZRigy1o0JX0orD4WunsCWP1f4uzw_JCkVmcLiO8rdfb4&usqp=CAU",
-      "courses": ["Political Science", "International Relations", "Global Governance"]
+      "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDPNfs8SdhzNi-0D5z54TmAFPZRigy1o0JX0orD4WunsCWP1f4uzw_JCkVmcLiO8rdfb4&usqp=CAU"
     },
 
     {
@@ -417,8 +414,7 @@
       "name": "Scarlett",
       "surname": "Fisher",
       "professorID": 20009,
-      "profileImage": "https://www.firstscene.co.nz/images/500486/pid1853075/Harry_Potter.jpg",
-      "courses": ["Environmental Science", "Ecology", "Conservation"]
+      "profileImage": "https://www.firstscene.co.nz/images/500486/pid1853075/Harry_Potter.jpg"
     },
 
     {
@@ -426,8 +422,7 @@
       "name": "Ethan",
       "surname": "Wright",
       "professorID": 20010,
-      "profileImage": "https://cdn.staticneo.com/w/harrypotter/Mcgonagall.jpg",
-      "courses": ["Business Administration", "Entrepreneurship", "Marketing"]
+      "profileImage": "https://cdn.staticneo.com/w/harrypotter/Mcgonagall.jpg"
     },
 
     {
@@ -435,8 +430,7 @@
       "name": "Lily",
       "surname": "Young",
       "professorID": 20011,
-      "profileImage": "https://i.pinimg.com/1200x/8b/ef/32/8bef32e1b86b1ca1c83469d2bcaa2125.jpg",
-      "courses": ["Medicine", "Anatomy", "Medical Research"]
+      "profileImage": "https://i.pinimg.com/1200x/8b/ef/32/8bef32e1b86b1ca1c83469d2bcaa2125.jpg"
     }
   ]
 }
