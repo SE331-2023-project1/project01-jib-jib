@@ -5,7 +5,7 @@
       "studentID": 10001,
       "name": "Liam",
       "surname": "Parker",
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Physics", "Quantum Mechanics", "Astrophysics"],
       "professorId": 4
     },
@@ -14,7 +14,7 @@
       "name": "John",
       "surname": "Doe",
       "studentID": 10002,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Mathematics", "Physics", "Chemistry"],
       "professorId": 6
     },
@@ -23,7 +23,7 @@
       "name": "Jane",
       "surname": "Smith",
       "studentID": 10003,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Biology", "Chemistry", "Literature"],
       "professorId": 10
     },
@@ -32,7 +32,7 @@
       "name": "Alice",
       "surname": "Johnson",
       "studentID": 10004,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["History", "Economics", "Physics"],
       "professorId": 1
     },
@@ -41,7 +41,7 @@
       "name": "Bob",
       "surname": "Brown",
       "studentID": 10005,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Mathematics", "Biology", "Computer Science"],
       "professorId": 3
     },
@@ -50,7 +50,7 @@
       "name": "Charlie",
       "surname": "Davis",
       "studentID": 10006,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Geography", "History", "Biology"],
       "professorId": 9
     },
@@ -59,7 +59,7 @@
       "name": "Diana",
       "surname": "Evans",
       "studentID": 10007,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Physics", "Chemistry", "Literature"],
       "professorId": 8
     },
@@ -68,7 +68,7 @@
       "name": "Victor",
       "surname": "Young",
       "studentID": 10008,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["History", "Physics", "Economics"],
       "professorId": 7
     },
@@ -77,7 +77,7 @@
       "name": "Zara",
       "surname": "Zimmerman",
       "studentID": 10009,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Mathematics", "Biology", "Literature"],
       "professorId": 5
     },
@@ -86,76 +86,76 @@
       "name": "Emily",
       "surname": "Walker",
       "studentID": 100010,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Chemistry", "Physics", "Biology"],
       "professorId": 1
     },
     {
-      "id": 10,
+      "id": 11,
       "name": "Sarah",
       "surname": "Johnson",
       "studentID": 10011,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["History", "Political Science", "Sociology"],
       "professorId": 2
     },
 
     {
-      "id": 11,
+      "id": 12,
       "name": "Michael",
       "surname": "Williams",
       "studentID": 10012,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Literature", "Creative Writing", "Theater Arts"],
       "professorId": 5
     },
 
     {
-      "id": 12,
+      "id": 13,
       "name": "Jennifer",
       "surname": "Brown",
       "studentID": 10013,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Psychology", "Counseling", "Human Development"],
       "professorId": 3
     },
 
     {
-      "id": 13,
+      "id": 14,
       "name": "David",
       "surname": "Miller",
       "studentID": 10014,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Economics", "Finance", "Business Administration"],
       "professorId": 4
     },
 
     {
-      "id": 14,
+      "id": 15,
       "name": "Jessica",
       "surname": "Anderson",
       "studentID": 10015,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Environmental Science", "Geology", "Ecology"],
       "professorId": 9
     },
 
     {
-      "id": 15,
+      "id": 16,
       "name": "Christopher",
       "surname": "Martinez",
       "studentID": 10016,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Engineering", "Physics", "Mathematics"],
       "professorId": 8
     },
 
     {
-      "id": 16,
+      "id": 17,
       "name": "Amanda",
       "surname": "Garcia",
       "studentID": 10017,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": [
         "Computer Science",
         "Information Technology",
@@ -165,191 +165,131 @@
     },
 
     {
-      "id": 17,
+      "id": 18,
       "name": "Matthew",
       "surname": "Lee",
       "studentID": 10018,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Biology", "Chemistry", "Genetics"],
       "professorId": 7
     },
 
     {
-      "id": 18,
+      "id": 19,
       "name": "Elizabeth",
       "surname": "Taylor",
       "studentID": 10019,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Art History", "Fine Arts", "Sculpture"],
       "professorId": 5
     },
 
     {
-      "id": 19,
+      "id": 20,
       "name": "William",
       "surname": "Clark",
       "studentID": 10020,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Music", "Composition", "Music Theory"],
       "professorId": 1
     },
 
     {
-      "id": 20,
+      "id": 21,
       "name": "Olivia",
       "surname": "Moore",
       "studentID": 10021,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Anthropology", "Archaeology", "Cultural Studies"],
       "professorId": 4
     },
 
     {
-      "id": 21,
+      "id": 22,
       "name": "Daniel",
       "surname": "Lopez",
       "studentID": 10022,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Foreign Languages", "Linguistics", "Translation"],
       "professorId": 3
     },
 
     {
-      "id": 22,
+      "id": 23,
       "name": "Sophia",
       "surname": "Rivera",
       "studentID": 10023,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Medicine", "Anatomy", "Medical Research"],
       "professorId": 8
     },
 
     {
-      "id": 23,
+      "id": 24,
       "name": "James",
       "surname": "Harris",
       "studentID": 10024,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Astronomy", "Astrophysics", "Space Exploration"],
       "professorId": 5
     },
     {
-      "id": 24,
+      "id": 25,
       "name": "Emma",
       "surname": "King",
       "studentID": 10025,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Journalism", "Media Studies", "Communication"],
       "professorId": 4
     },
 
     {
-      "id": 25,
+      "id": 26,
       "name": "Alexander",
       "surname": "Perez",
       "studentID": 10026,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Political Science", "International Relations", "Diplomacy"],
       "professorId": 8
     },
 
     {
-      "id": 26,
+      "id": 27,
       "name": "Grace",
       "surname": "Adams",
       "studentID": 10027,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Philosophy", "Ethics", "Logic"],
       "professorId": 10
     },
 
     {
-      "id": 27,
+      "id": 28,
       "name": "Ethan",
       "surname": "Carter",
       "studentID": 10028,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Physical Education", "Sports Science", "Coaching"],
       "professorId": 7
     },
 
     {
-      "id": 28,
+      "id": 29,
       "name": "Lily",
       "surname": "Morales",
       "studentID": 10029,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Drama", "Theater Production", "Acting"],
       "professorId": 9
     },
-
-    {
-      "id": 29,
-      "name": "Benjamin",
-      "surname": "Wright",
-      "studentID": 10030,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
-      "courses": ["Geography", "Cartography", "GIS"],
-      "professorId": 2
-    },
-
     {
       "id": 30,
       "name": "Chloe",
       "surname": "Hughes",
       "studentID": 10031,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
+      "profileImage": "https://api.multiavatar.com/zoe.svg",
       "courses": ["Culinary Arts", "Hospitality Management", "Gastronomy"],
       "professorId": 8
-    },
-
-    {
-      "id": 31,
-      "name": "Jackson",
-      "surname": "Baker",
-      "studentID": 10032,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
-      "courses": ["Architecture", "Urban Planning", "Design"],
-      "professorId": 10
-    },
-
-    {
-      "id": 32,
-      "name": "Aria",
-      "surname": "Stewart",
-      "studentID": 10033,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
-      "courses": ["Fashion Design", "Textile Arts", "Fashion Merchandising"],
-      "professorId": 6
-    },
-
-    {
-      "id": 33,
-      "name": "Samuel",
-      "surname": "Cooper",
-      "studentID": 10034,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
-      "courses": ["Engineering", "Robotics", "Mechatronics"],
-      "professorId": 1
-    },
-    {
-      "id": 34,
-      "name": "Isabella",
-      "surname": "Garcia",
-      "studentID": 10035,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
-      "courses": ["Biology", "Genetics", "Biochemistry"],
-      "professorId": 2
-    },
-
-    {
-      "id": 35,
-      "name": "Olivia",
-      "surname": "Anderson",
-      "studentID": 10036,
-      "profileImage": "https://upload.wikimedia.org/wikipedia/th/4/44/HarryPotter5poster.jpg",
-      "courses": ["History", "Ancient Civilizations", "Archaeology"],
-      "professorId": 3
     }
   ],
   "professer": [
@@ -358,7 +298,7 @@
       "name": "Ella",
       "surname": "Parker",
       "professorID": 20002,
-      "profileImage": "https://lovelace-media.imgix.net/uploads/6/89198b10-19a7-0132-085c-0eae5eefacd9.jpg"
+      "profileImage": "https://xsgames.co/randomusers/avatar.php?g=pixel"
     },
 
     {
@@ -366,7 +306,7 @@
       "name": "Henry",
       "surname": "Nelson",
       "professorID": 20003,
-      "profileImage": "https://i.insider.com/6000b204b805070018995348?width=1000&format=jpeg&auto=webp"
+      "profileImage": "https://xsgames.co/randomusers/avatar.php?g=pixel"
     },
 
     {
@@ -374,7 +314,7 @@
       "name": "Mia",
       "surname": "Collins",
       "professorID": 20004,
-      "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLNDX2MgfkQ0_DRKR8mLkMwdPYH_O0FJp8BQ&usqp=CAU"
+      "profileImage": "https://xsgames.co/randomusers/avatar.php?g=pixel"
     },
 
     {
@@ -382,7 +322,7 @@
       "name": "James",
       "surname": "Stewart",
       "professorID": 20005,
-      "profileImage": "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/26/14/asset/buzzfeed-prod-fastlane-02/sub-buzz-29309-1519674257-21.png"
+      "profileImage": "https://api.multiavatar.com/zoe.svg"
     },
 
     {
@@ -390,7 +330,7 @@
       "name": "Avery",
       "surname": "Mitchell",
       "professorID": 20006,
-      "profileImage": "https://pbs.twimg.com/media/BWyxwDgCYAA5PVL.jpg:large"
+      "profileImage": "https://api.multiavatar.com/zoe.svg"
     },
 
     {
@@ -398,7 +338,7 @@
       "name": "Luna",
       "surname": "Rossi",
       "professorID": 20007,
-      "profileImage": "https://thumb.spokesman.com/MYHRTMlMh-WQmU4W8JSGer2doIM=/1200x0/media.spokesman.com/photos/2021/07/12/60eca8983a93d.image.jpg"
+      "profileImage": "https://api.multiavatar.com/zoe.svg"
     },
 
     {
@@ -406,7 +346,7 @@
       "name": "Carter",
       "surname": "Ward",
       "professorID": 20008,
-      "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDPNfs8SdhzNi-0D5z54TmAFPZRigy1o0JX0orD4WunsCWP1f4uzw_JCkVmcLiO8rdfb4&usqp=CAU"
+      "profileImage": "https://api.multiavatar.com/zoe.svg"
     },
 
     {
@@ -414,7 +354,7 @@
       "name": "Scarlett",
       "surname": "Fisher",
       "professorID": 20009,
-      "profileImage": "https://www.firstscene.co.nz/images/500486/pid1853075/Harry_Potter.jpg"
+      "profileImage": "https://api.multiavatar.com/zoe.svg"
     },
 
     {
@@ -422,7 +362,7 @@
       "name": "Ethan",
       "surname": "Wright",
       "professorID": 20010,
-      "profileImage": "https://cdn.staticneo.com/w/harrypotter/Mcgonagall.jpg"
+      "profileImage": "https://api.multiavatar.com/zoe.svg"
     },
 
     {
@@ -430,7 +370,7 @@
       "name": "Lily",
       "surname": "Young",
       "professorID": 20011,
-      "profileImage": "https://i.pinimg.com/1200x/8b/ef/32/8bef32e1b86b1ca1c83469d2bcaa2125.jpg"
+      "profileImage": "https://api.multiavatar.com/zoe.svg"
     }
   ]
 }
