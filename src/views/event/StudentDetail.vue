@@ -1,20 +1,17 @@
 <script setup lang="ts">
-import { type StudentItem } from '@/type'
-import { computed, type PropType } from 'vue'
-import { useMessageStore } from '@/stores/message'
-import { useRouter } from 'vue-router'
-const store = useMessageStore()
-defineProps({
+import { type StudentItem } from "@/type";
+import { computed, type PropType } from "vue";
+import { useMessageStore } from "@/stores/message";
+import { useRouter } from "vue-router";
+import { storeToRefs } from "pinia";
+const props = defineProps({
   student: {
     type: Object as PropType<StudentItem>,
-    require: true
-  }
-})
-const router = useRouter()
-const studentId = router.currentRoute.value.params.id
-const studentComment = computed(() => {
-  return store.getCommentForStudent(String(studentId))
-})
+    require: true,
+  },
+});
+const store = useMessageStore();
+const message = computed(() => store.getMessage(String(props.student?.id)));
 </script>
 
 <template>
@@ -27,7 +24,7 @@ const studentComment = computed(() => {
     <p class="text-center">{{ student.courses.toString() }}</p>
     <div class="message">
       <h1>Comment from Advisor</h1>
-      <p>{{ studentComment }}</p>
+      <p>{{ message }}</p>
     </div>
   </div>
 </template>
