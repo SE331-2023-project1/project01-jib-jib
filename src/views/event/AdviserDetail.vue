@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { type AdviserItem, type StudentItem } from "@/type";
-import { ref, type PropType } from "vue";
+import { computed, ref, type PropType } from "vue";
 import { useMessageStore } from "@/stores/message";
 import router from "@/router";
 const props = defineProps({
@@ -23,6 +23,12 @@ function onSubmit() {
     name: "student-detail",
   });
 }
+const detail = computed(() => store.getDetail(String(props.professer?.id)));
+const newDetail = ref("");
+function addDetail() {
+  store.addDetail(String(props.professer?.id), newDetail.value);
+  newDetail.value = "";
+}
 </script>
 
 <template>
@@ -40,7 +46,19 @@ function onSubmit() {
         <p>{{ professer?.name }} {{ professer?.surname }}</p>
         <p>ProfesserID:</p>
         <p>{{ professer?.professorID }}</p>
+        <div v-if="detail && detail.length">
+          <h1>professer Deatail</h1>
+          <p v-for="(details, index) in detail" :key="index">{{ details }}</p>
+        </div>
         <p>{{ student?.name }}</p>
+        <div class="addDetail">
+          <input
+            type="text"
+            v-model="newDetail"
+            placeholder="Add Professer Detail.."
+          />
+          <button @click="addDetail">Add Detail</button>
+        </div>
       </div>
     </div>
   </div>
