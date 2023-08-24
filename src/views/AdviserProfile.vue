@@ -57,7 +57,7 @@ const { flashMessage } = storeToRefs(store)
         <div class="text-center font-mono border-t-2 border-black">
           <input type="text" v-model="newDetail" placeholder="Add Professer Detail.." class="border-2 border-black h-16 w-80 p-2 break-words mt-4 text-center" />
           <div>
-            <button @click="addDetail" class="my-2 text-red-900 font-extrabold underline">Add Detail</button>
+            <button @click="addDetail" class="my-2 hover:text-red-800 font-extrabold underline">Add Detail</button>
           </div>
         </div>
       </div>

@@ -54,7 +54,7 @@ const hasNextPages = computed(() => {
         rel="next"
         v-if="hasNextPages"
         id="page-next"
-        class="font-bold hover:text-red-800"
+        class="font-bold hover:text-green-600"
       >
         Next page
       </RouterLink>
