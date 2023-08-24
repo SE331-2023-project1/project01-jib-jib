@@ -99,7 +99,6 @@
       "courses": ["History", "Political Science", "Sociology"],
       "professorId": 2
     },
-
     {
       "id": 12,
       "name": "Michael",
@@ -109,7 +108,6 @@
       "courses": ["Literature", "Creative Writing", "Theater Arts"],
       "professorId": 5
     },
-
     {
       "id": 13,
       "name": "Jennifer",
@@ -119,7 +117,6 @@
       "courses": ["Psychology", "Counseling", "Human Development"],
       "professorId": 3
     },
-
     {
       "id": 14,
       "name": "David",
@@ -129,7 +126,6 @@
       "courses": ["Economics", "Finance", "Business Administration"],
       "professorId": 4
     },
-
     {
       "id": 15,
       "name": "Jessica",
@@ -139,7 +135,6 @@
       "courses": ["Environmental Science", "Geology", "Ecology"],
       "professorId": 9
     },
-
     {
       "id": 16,
       "name": "Christopher",
@@ -149,7 +144,6 @@
       "courses": ["Engineering", "Physics", "Mathematics"],
       "professorId": 8
     },
-
     {
       "id": 17,
       "name": "Amanda",
@@ -163,7 +157,6 @@
       ],
       "professorId": 10
     },
-
     {
       "id": 18,
       "name": "Matthew",
@@ -173,7 +166,6 @@
       "courses": ["Biology", "Chemistry", "Genetics"],
       "professorId": 7
     },
-
     {
       "id": 19,
       "name": "Elizabeth",
@@ -183,7 +175,6 @@
       "courses": ["Art History", "Fine Arts", "Sculpture"],
       "professorId": 5
     },
-
     {
       "id": 20,
       "name": "William",
@@ -193,7 +184,6 @@
       "courses": ["Music", "Composition", "Music Theory"],
       "professorId": 1
     },
-
     {
       "id": 21,
       "name": "Olivia",
@@ -203,7 +193,6 @@
       "courses": ["Anthropology", "Archaeology", "Cultural Studies"],
       "professorId": 4
     },
-
     {
       "id": 22,
       "name": "Daniel",
@@ -213,7 +202,6 @@
       "courses": ["Foreign Languages", "Linguistics", "Translation"],
       "professorId": 3
     },
-
     {
       "id": 23,
       "name": "Sophia",
@@ -223,7 +211,6 @@
       "courses": ["Medicine", "Anatomy", "Medical Research"],
       "professorId": 8
     },
-
     {
       "id": 24,
       "name": "James",
@@ -242,7 +229,6 @@
       "courses": ["Journalism", "Media Studies", "Communication"],
       "professorId": 4
     },
-
     {
       "id": 26,
       "name": "Alexander",
@@ -252,7 +238,6 @@
       "courses": ["Political Science", "International Relations", "Diplomacy"],
       "professorId": 8
     },
-
     {
       "id": 27,
       "name": "Grace",
@@ -262,7 +247,6 @@
       "courses": ["Philosophy", "Ethics", "Logic"],
       "professorId": 10
     },
-
     {
       "id": 28,
       "name": "Ethan",
@@ -272,7 +256,6 @@
       "courses": ["Physical Education", "Sports Science", "Coaching"],
       "professorId": 7
     },
-
     {
       "id": 29,
       "name": "Lily",
@@ -302,7 +285,6 @@
       "telephone": 133578456,
       "email": "EP_Peter@gmail.com"
     },
-
     {
       "id": 2,
       "name": "Henry",
@@ -312,7 +294,6 @@
       "telephone": 145748545,
       "email": "Henry_HN@gmail.com"
     },
-
     {
       "id": 3,
       "name": "Mia",
@@ -322,7 +303,6 @@
       "telephone": 155224643,
       "email": "Mia_Co_1999@gmail.com"
     },
-
     {
       "id": 4,
       "name": "James",
@@ -332,7 +312,6 @@
       "telephone": 195253784,
       "email": "Mia_Co_1999@gmail.com"
     },
-
     {
       "id": 5,
       "name": "Avery",
@@ -342,7 +321,6 @@
       "telephone": 144002544,
       "email": "Avery06Mitchell@gmail.com"
     },
-
     {
       "id": 6,
       "name": "Luna",
@@ -352,7 +330,6 @@
       "telephone": 174545315,
       "email": "Lululululuna@gmail.com"
     },
-
     {
       "id": 7,
       "name": "Carter",
@@ -362,7 +339,6 @@
       "telephone": 110202465,
       "email": "WardXXX@gmail.com"
     },
-
     {
       "id": 8,
       "name": "Scarlett",
@@ -372,7 +348,6 @@
       "telephone": 115331300,
       "email": "ScarlettScare@gmail.com"
     },
-
     {
       "id": 9,
       "name": "Ethan",
@@ -382,7 +357,6 @@
       "telephone": 153485445,
       "email": "WWW_Ethan@gmail.com"
     },
-
     {
       "id": 10,
       "name": "Lily",
