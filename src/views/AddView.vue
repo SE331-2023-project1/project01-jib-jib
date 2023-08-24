@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import { useAdviserStore } from "@/stores/newAdviser";
 import type { AdviserItem } from "@/type";
-import router from "@/router";
+
 
 const adviserStore = useAdviserStore();
 const Iadviser = ref<AdviserItem>({
@@ -20,9 +20,31 @@ function addAdviser() {
 </script>
 
 <template>
-  <input v-model="Iadviser.professorID" placeholder="StudentID" />
-  <input v-model="Iadviser.name" placeholder="Name" />
-  <input v-model="Iadviser.surname" placeholder="SurName" />
-  <input v-model="Iadviser.profileImage" placeholder="image" />
-  <button @click="addAdviser">Add Student</button>
+  <div class="flex justify-center">
+    <img
+          alt="Vue logo"
+          src="https://logolook.net/wp-content/uploads/2021/11/Hogwarts-Logo.png"
+          class="mt-5 h-40 w-70"
+        />
+  </div>
+  <div class="mx-20 my-10 text-center">
+    <div class="my-10">
+      <p class="text-2xl font-mono font-bold text-center">Add Adviser Details</p>
+    </div>
+    <div class="flex justify-center ">
+      <div class="grid grid-cols-2 gap-2 font-mono">
+      <p class="text-left">Profresser-ID: </p>
+      <input v-model="Iadviser.professorID" placeholder="Add ProfresserID..." class="text-center border-2 "/>
+      <p class="text-left">Name:</p>
+      <input v-model="Iadviser.name" placeholder="Add Name..." class="text-center border-2">
+      <p class="text-left">SurName:</p>
+      <input v-model="Iadviser.surname" placeholder="Add SurName..." class="text-center border-2"/>
+      <p class="text-left">Image-URL: </p>
+      <input v-model="Iadviser.profileImage" placeholder="Add Image-URL..." class="text-center border-2"/>
+    </div>
+    </div>
+    <div class="text-center m-8">
+      <button @click="addAdviser" class="border-2 border-black bg-red-800 font-mono text-white p-2">Add Student</button>
+    </div>
+  </div>
 </template>
