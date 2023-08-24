@@ -11,10 +11,10 @@ const props = defineProps({
 <template>
   <RouterLink :to="{ name: 'student-detail', params: { id: student?.id } }">
     <div class="flex justify-center items-center mb-2">
-      <div v-if="student" class="border-2 w-3/4 h-38 p-2 bg-yellow-600 text-yellow-900 rounded-md">
+      <div v-if="student" class="border-2 w-3/4 h-38 p-2 bg-red-800 text-white rounded-md">
         <div class="flex row-auto">
           <div class="mr-2">
-            <img :src="student?.profileImage" alt="Student Image" class="h-36 w-30" />
+            <img :src="student?.profileImage" alt="Student Image" class="border-2 border-black h-36 w-30" />
           </div>
           <div class="ml-2 text-left">
             <p class="text-lg font-mono font-bold">Student ID: {{ student?.studentID }}</p>

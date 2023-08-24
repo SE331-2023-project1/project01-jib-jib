@@ -10,17 +10,17 @@ defineProps({
 </script>
 
 <template>
-  <div class="flex justify-center items-center mb-8">
-    <div v-if="professer" class="border-2 w-3/4 p-4 bg-yellow-600 text-yellow-900 rounded-md">
-      <div class="flex items-center">
-        <div class="mr-4">
-          <img :src="professer?.profileImage" alt="professer img" class="h-28 w-24" />
-        </div>
-        <div class="text-left">
-          <p class="text-lg font-bold">{{ professer?.name }}</p>
-          <p>{{ professer?.surname }}</p>
+  <div class="flex justify-center items-center mb-2">
+      <div v-if="professer" class="border-2 w-3/4 h-38 p-2 bg-red-800 text-white rounded-md">
+        <div class="flex row-auto">
+          <div class="mr-2">
+            <img :src="professer?.profileImage" alt="Student Image" class="border-2 border-black h-36 w-30" />
+          </div>
+          <div class="ml-2 text-left">
+            <p class="text-lg font-mono font-bold">Name: {{ professer.name }} {{ professer.surname }}</p>
+            <p class="text-lg font-mono">ProfesserID: {{ professer?.professorID }}</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 </template>

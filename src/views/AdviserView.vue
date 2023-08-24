@@ -7,7 +7,7 @@ import type { AdviserItem } from '@/type'
 import type { AxiosResponse } from 'axios'
 const professer: Ref<Array<AdviserItem>> = ref([])
 const totalEvent = ref<number>(0)
-const eventsPerPage = ref(5)
+const eventsPerPage = ref(6)
 const props = defineProps({
   page: {
     type: Number,
@@ -31,7 +31,7 @@ const hasNextPages = computed(() => {
 
 <template>
   <div>
-    <div class="grid grid-cols-2 gap-2 mb-4 mt-10">
+    <div class="grid grid-cols-2 gap-2 mt-10">
       <AdviserList
         v-for="professers in professer"
         :key="professers.professorID"

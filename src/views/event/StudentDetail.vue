@@ -29,16 +29,18 @@ function addDetail() {
     <p class="font-semibold text-left">Course:</p>
     <p class="text-center">{{ student.courses.toString() }}</p>
   </div>
-  <div v-if="message" class="font-mono grid grid-cols-2">
+  <div v-if="message" class="font-mono">
     <h1 class="font-semibold text-left">Comment from Advisor: </h1>
-    <p class="text-center">{{ message }}</p>
+    <p class="text-center">" {{ message }} "</p>
   </div>
   <div v-if="detail && detail.length">
     <h1 class=" text-center font-mono font-semibold">Student Detail</h1>
-    <p v-for="(details, index) in detail" :key="index">" {{ details }} "</p>
+    <p v-for="(details, index) in detail" :key="index" class="text-center">" {{ details }} "</p>
   </div>
-  <div class="addDetail">
-    <input type="text" v-model="newDetail" placeholder="Add Student Detail.." />
-    <button @click="addDetail">Add Detail</button>
+  <div class="text-center font-mono border-t-2 border-black">
+    <input type="text" v-model="newDetail" placeholder="Add Student Detail.." class="border-2 border-black h-16 w-80 p-2 break-words mt-4 text-center"/>
+    <div >
+      <button @click="addDetail" class="my-2 text-red-900 font-extrabold underline">Add Detail</button>
+    </div>
   </div>
 </template>

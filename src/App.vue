@@ -2,7 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 </script>
 
-<template>
+<template >
   <header>
     <nav class="flex justify-between items-center text-white font-mono mb-2 bg-red-800">
       <div class="flex items-center font-mono">
@@ -11,20 +11,20 @@ import { RouterLink, RouterView } from 'vue-router'
           src="https://logolook.net/wp-content/uploads/2021/11/Hogwarts-Logo.png"
           class="mt-5 mb-5 ml-20 h-20 w-70"
         />
-        <p class="font-bold">HOGWARTS MAGIC AWAKENED</p>
+        <p class="font-bold font-mono text-2xl">HOGWARTS MAGIC AWAKENED</p>
       </div>
-      <div class="space-x-10 mr-20">
-        <RouterLink to="/" class="font-black transition-colors duration-300 hover:text-yellow-500"
+      <div class="space-x-10 mr-20 font-mono">
+        <RouterLink to="/" class="font-black transition-colors duration-300 hover:text-yellow-500 text-lg"
           >Student</RouterLink
         >
         <RouterLink
           to="/professer"
-          class="font-black transition-colors duration-300 hover:text-yellow-500"
+          class="font-black transition-colors duration-300 hover:text-yellow-500 text-lg"
           >Advisor</RouterLink
         >
         <a
           href="http://localhost:3006/students"
-          class="font-black transition-colors duration-300 hover:text-yellow-500"
+          class="font-black transition-colors duration-300 hover:text-yellow-500 text-lg"
           >dbfile</a
         >
       </div>

@@ -24,11 +24,11 @@ function onSubmit() {
   });
 }
 
-function flashMessagge(){
+function flashMessagge() {
   store.updateflashcard("Welcome to Adviser Profile")
-  setTimeout(()=>{
+  setTimeout(() => {
     store.resetflashcard()
-  },3000)
+  }, 3000)
   router.push({
     name: 'professer-profile',
     params: {
@@ -39,32 +39,33 @@ function flashMessagge(){
 </script>
 
 <template>
-  <div class="grid grid-cols-2 p-5">
+  <div class="grid grid-cols-2">
     <div class="mx-auto">
-      <img
-        :src="professer?.profileImage"
-        alt="Student Image"
-        class="h-48 w-36"
-      />
+      <img :src="professer?.profileImage" alt="Student Image" class="h-38 w-32 border-2 border-black" />
     </div>
 
     <div class="font-mono text-center">
       <div class="grid grid-cols-2 gap-2">
-        <p>Name-Surname:</p>
+        <p class="font-semibold">Name-Surname:</p>
         <p>{{ professer?.name }} {{ professer?.surname }}</p>
-        <p>ProfesserID:</p>
+        <p class="font-semibold">ProfesserID:</p>
         <p>{{ professer?.professorID }}</p>
-        <p>Student Name:</p>
+        <p class="font-semibold">Student Name:</p>
         <p>{{ student?.name }} {{ student?.surname }}</p>
       </div>
-      <div class="m-5">
-        <input type="text" placeholder="Enter comment .." v-model="comment" />
-        <button @click="onSubmit">Submit</button>
-      </div>
-
-      <button @click="flashMessagge" class="font-extrabold text-red-700 font-mono"
-      >Click to see more details</button>
     </div>
   </div>
-  <div></div>
+  <div>
+    <div class="text-center">
+      <button @click="flashMessagge" class="font-extrabold text-red-800 font-mono underline">Click to see more
+        details</button>
+    </div>
+    <div class="text-center font-mono">
+      <input type="text" placeholder="Enter comment .." v-model="comment"
+        class="border-2 border-black h-16 w-80 p-2 break-words mt-2 text-center" />
+      <div>
+        <button @click="onSubmit" class="my-2 text-red-800 font-extrabold underline">Submit</button>
+      </div>
+    </div>
+  </div>
 </template>
