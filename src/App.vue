@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView } from "vue-router";
 </script>
 
-<template >
+<template>
   <header>
-    <nav class="flex justify-between items-center text-white font-mono mb-2 bg-red-800">
+    <nav
+      class="flex justify-between items-center text-white font-mono mb-2 bg-red-800"
+    >
       <div class="flex items-center font-mono">
         <img
           alt="Vue logo"
@@ -14,7 +16,9 @@ import { RouterLink, RouterView } from 'vue-router'
         <p class="font-bold font-mono text-2xl">HOGWARTS MAGIC AWAKENED</p>
       </div>
       <div class="space-x-10 mr-20 font-mono">
-        <RouterLink to="/" class="font-black transition-colors duration-300 hover:text-yellow-500 text-lg"
+        <RouterLink
+          to="/"
+          class="font-black transition-colors duration-300 hover:text-yellow-500 text-lg"
           >Student</RouterLink
         >
         <RouterLink
@@ -22,10 +26,10 @@ import { RouterLink, RouterView } from 'vue-router'
           class="font-black transition-colors duration-300 hover:text-yellow-500 text-lg"
           >Advisor</RouterLink
         >
-        <a
-          href="http://localhost:3006/students"
+        <RouterLink
+          to="/AddView"
           class="font-black transition-colors duration-300 hover:text-yellow-500 text-lg"
-          >dbfile</a
+          >Add Adviser</RouterLink
         >
       </div>
     </nav>
