@@ -14,4 +14,6 @@ export interface AdviserItem {
   surname: string;
   professorID: number;
   profileImage: string;
+  telephone: number;
+  email: string;
 }
