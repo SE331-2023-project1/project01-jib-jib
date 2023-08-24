@@ -3,6 +3,7 @@ import { computed, ref, type PropType } from "vue";
 import type { AdviserItem } from "@/type";
 import StudentService from "@/services/StudentService";
 import { useMessageStore } from "@/stores/message";
+import { storeToRefs } from 'pinia'
 const professer = ref<AdviserItem | null>(null);
 const props = defineProps({
   id: String,
@@ -27,10 +28,12 @@ function addDetail() {
   store.addDetail(String(props.professer?.id), newDetail.value);
   newDetail.value = "";
 }
+const { flashMessage} = storeToRefs(store)
 </script>
 
 <template>
   <div class="my-10">
+    
     <h1 class="text-center text-3xl">
       Professer ID: {{ professer?.professorID }}
     </h1>
@@ -39,7 +42,7 @@ function addDetail() {
         <img
           :src="professer?.profileImage"
           alt="Student Image"
-          class="h-48 w-36"
+          class="h-48 w-36 mx-auto"
         />
         <div class="font-mono text-left">
           <p>Name: {{ professer?.name }} {{ professer?.surname }}</p>
@@ -59,4 +62,7 @@ function addDetail() {
       </div>
     </div>
   </div>
+  <div class="bg-red-700 transition duration-3000 my-2">
+      <h4 class="text-center font-mono text-white">{{ flashMessage }}</h4>
+    </div>
 </template>

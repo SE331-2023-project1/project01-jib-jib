@@ -23,6 +23,19 @@ function onSubmit() {
     name: "student-detail",
   });
 }
+
+function flashMessagge(){
+  store.updateflashcard("Welcome to Adviser Profile")
+  setTimeout(()=>{
+    store.resetflashcard()
+  },3000)
+  router.push({
+    name: 'professer-profile',
+    params: {
+      id: props.professer?.id
+    }
+  })
+}
 </script>
 
 <template>
@@ -48,11 +61,9 @@ function onSubmit() {
         <input type="text" placeholder="Enter comment .." v-model="comment" />
         <button @click="onSubmit">Submit</button>
       </div>
-      <RouterLink
-        :to="{ name: 'professer-profile', params: { id: professer?.id } }"
-        class="font-extrabold text-red-700 font-mono"
-        >Click to see more details</RouterLink
-      >
+
+      <button @click="flashMessagge" class="font-extrabold text-red-700 font-mono"
+      >Click to see more details</button>
     </div>
   </div>
   <div></div>

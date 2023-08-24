@@ -3,6 +3,7 @@ export const useMessageStore = defineStore("message", {
   state: () => ({
     message: {} as Record<string, string>,
     studentDetails: {} as Record<string, string[]>,
+    flashMessage:  '' as string
   }),
   actions: {
     updateMessage(studentId: string, message: string) {
@@ -20,5 +21,11 @@ export const useMessageStore = defineStore("message", {
     getDetail(studentId: string): string[] {
       return this.studentDetails[studentId] || [];
     },
+    updateflashcard(message: string) {
+      this.flashMessage = message
+  },
+  resetflashcard() {
+      this.flashMessage= ''
+  }
   },
 });
